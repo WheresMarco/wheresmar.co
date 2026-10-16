@@ -31,7 +31,7 @@ client: Odd Alice          # valfritt, byrå eller uppdragsgivare
 summary: En mening som syns i listor och som beskrivning.
 link: https://billio.app   # valfritt
 image: /img/billio.svg     # valfritt, logga eller skärmdump
-tech: [PHP, React]         # valfritt
+tech: [PHP, Laravel, Vue]  # valfritt, visas som Nyckeltekniker
 featured: true             # valfritt, visar projektet på startsidan
 gallery:                   # valfritt, skärmdumpar på projektsidan
   - src: /img/billio/1.webp
