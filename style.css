@@ -429,6 +429,96 @@ figure.shot { margin-top: 0; margin-right: 0; }
   margin-top: 3rem;
 }
 
+/* Lightbox */
+.lightbox-open { overflow: hidden; }
+
+.lightbox {
+  width: 100vw;
+  max-width: none;
+  height: 100vh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: rgba(14, 14, 13, 0.96);
+  color: #fff;
+}
+
+.lightbox::backdrop { background: transparent; }
+
+.lightbox[open] { animation: lightbox-in 0.2s ease; }
+
+@keyframes lightbox-in {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+
+.lightbox-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+  margin: 0;
+  padding: 3.5rem 4.5rem;
+}
+
+.lightbox-figure img {
+  max-width: 100%;
+  max-height: calc(100vh - 9rem);
+  object-fit: contain;
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.5));
+}
+
+.lightbox-figure figcaption {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.925rem;
+  text-align: center;
+}
+
+.lightbox button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font: 400 1.75rem/1 var(--font);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.lightbox button:hover { background: rgba(255, 255, 255, 0.22); }
+
+.lightbox-close { top: 1rem; right: 1rem; }
+.lightbox-prev { top: 50%; left: 1rem; transform: translateY(-50%); }
+.lightbox-next { top: 50%; right: 1rem; transform: translateY(-50%); }
+.lightbox.single .lightbox-prev,
+.lightbox.single .lightbox-next { display: none; }
+
+.lightbox-count {
+  position: absolute;
+  top: 1.6rem;
+  left: 1.25rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 34rem) {
+  .lightbox-figure { padding: 4rem 0.75rem 5rem; }
+  .lightbox-prev, .lightbox-next { top: auto; bottom: 1rem; transform: none; }
+}
+
+.shot-frame { cursor: zoom-in; }
+
 @media (min-width: 48rem) {
   .gallery { grid-template-columns: 1fr 1fr; }
   .gallery .shot-frame { padding: 1.75rem; }
