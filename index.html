@@ -1,9 +1,11 @@
 ---
 ---
 <section class="intro">
-  <h1><span>Hej, jag är Marco.</span></h1>
-  <p class="lead">Backend-utvecklare på <a href="https://www.ateles.se">CAG Ateles</a>. Jag bygger system som håller i längden, och på kvällar och helger egna projekt. Senast en ny sajt för Linköpings Studentspex.</p>
-  <p>Vill du prata projekt, jobb eller något helt annat? Skriv till <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+  <h1><span>Hej där!</span></h1>
+  <p class="lead">Jag heter Marco Sommer och är senior webbutvecklare med över 13 års erfarenhet av affärskritiska webb- och e-handelslösningar. Just nu gör jag det hos <a href="https://www.ateles.se">CAG Ateles</a>.</p>
+  <p>Till vardags jobbar jag mest med PHP/Laravel, WordPress och React, och jag har ofta haft det tekniska helhetsansvaret från idé till förvaltning. Jag trivs med att leda tekniska initiativ, samarbeta över teamgränser och vara bryggan mellan teknik och verksamhet.</p>
+  <p>Det jag brinner mest för är hållbara lösningar, med fokus på kvalitet, säkerhet, tillgänglighet och långsiktig utveckling. Vid sidan av jobbet bygger jag gärna egna projekt, senast en ny webbplats för <a href="{{ '/projekt/studentspex/' | relative_url }}">Linköpings Studentspex</a>.</p>
+  <p>Har du frågor eller vill du bara säga hej? Skicka ett mail till <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
 </section>
 
 {% assign featured = site.projects | where: "featured", true | sort: "title" %}
