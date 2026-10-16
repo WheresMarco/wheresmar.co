@@ -5,6 +5,7 @@ type: Blogg
 summary: Ett digitalt kuriosakabinett med det bästa jag hittat på webben.
 image: /img/nutopia.png
 featured: true
+tech: [WordPress, PHP, HTML, CSS]
 gallery:
   - src: /img/nutopia/1.webp
     caption: Nutopia som den såg ut i januari 2019, via Internet Archive.

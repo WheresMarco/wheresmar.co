@@ -6,6 +6,7 @@ summary: Ny webbplats för spexföreningen i Linköping.
 link: https://studentspex.se
 image: /img/studentspex.png
 featured: true
+tech: [WordPress, PHP, HTML, CSS, JavaScript]
 gallery:
   - src: /img/studentspex/1.webp
     caption: Startsidan inför nästa spex.

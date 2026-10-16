@@ -13,7 +13,7 @@ gallery:
     caption: Om Billio, med de viktigaste funktionerna.
   - src: /img/billio/3.webp
     caption: Evenemangssidan för LiTHe Blås 50-årsjubileum, med biljetter och donationer.
-tech: [PHP, Laravel, React Native, Stripe]
+tech: [PHP, Laravel, React Native, Stripe, JavaScript]
 ---
 Billio började med en enkel tanke: att sälja biljetter ska vara enkelt. Det har vuxit till ett komplett biljettsystem som tar hand om allt från försäljning till incheckning, och som används av föreningar och arrangörer i Linköping.
 
