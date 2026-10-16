@@ -428,7 +428,9 @@ figure.shot { margin-top: 0; margin-right: 0; }
 }
 
 .shot-frame img {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
   filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.18)) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.08));
   transition: transform 0.3s ease;
 }
