@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  {% if page.title %}{% assign page_title = page.title | append: " · " | append: site.title %}{% else %}{% assign page_title = site.title | append: " · Backend-utvecklare" %}{% endif %}
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page.summary | default: page.description | default: site.description | strip_html | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
+  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon-precomposed.png' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#content">Hoppa till innehållet</a>
+  <div class="site">
+    {% include header.html %}
+    <main id="content">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </div>
+</body>
+</html>

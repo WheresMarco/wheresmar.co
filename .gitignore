@@ -38,3 +38,8 @@ ehthumbs.db
 Thumbs.db
 _site
 _sass
+# Jekyll
+.jekyll-cache
+.bundle
+vendor
+Gemfile.lock

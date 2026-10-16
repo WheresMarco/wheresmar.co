@@ -1,1 +1,25 @@
+title: Marco Sommer
+description: Backend-utvecklare som bygger saker för webben, både på jobbet och på sidan.
+lang: sv
+url: "https://wheresmar.co"
+email: marco@wheresmar.co
+github: WheresMarco
+
 include: [".well-known"]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "vendor"]
+
+collections:
+  projects:
+    output: true
+    permalink: /projekt/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+  - scope:
+      path: ""
+    values:
+      layout: default

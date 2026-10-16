@@ -1,0 +1,11 @@
+{% assign project = include.project %}
+<article class="card">
+  <a class="card-link" href="{{ project.url | relative_url }}">
+    {% if project.image %}
+    <div class="card-media"><img src="{{ project.image | relative_url }}" alt="" loading="lazy"></div>
+    {% endif %}
+    <p class="label">{{ project.type }}</p>
+    <h3 class="card-title">{{ project.title }}</h3>
+    <p class="card-summary">{{ project.summary }}</p>
+  </a>
+</article>

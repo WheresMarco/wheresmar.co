@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="project">
+  <header class="page-header">
+    <p class="label"><a href="{{ '/projekt/' | relative_url }}">Projekt</a> · {{ page.year }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.summary %}<p class="lead">{{ page.summary }}</p>{% endif %}
+  </header>
+
+  <dl class="facts">
+    {% if page.type %}<div><dt>Typ</dt><dd>{{ page.type }}</dd></div>{% endif %}
+    {% if page.client %}<div><dt>Via</dt><dd>{{ page.client }}</dd></div>{% endif %}
+    {% if page.role %}<div><dt>Roll</dt><dd>{{ page.role }}</dd></div>{% endif %}
+    {% if page.tech %}<div><dt>Teknik</dt><dd>{{ page.tech | join: ", " }}</dd></div>{% endif %}
+    {% if page.link %}<div><dt>Länk</dt><dd><a href="{{ page.link }}">{{ page.link | remove: "https://" | remove: "http://" | remove: "www." }}</a></dd></div>{% endif %}
+  </dl>
+
+  {% if page.image %}
+  <figure class="project-image"><img src="{{ page.image | relative_url }}" alt=""></figure>
+  {% endif %}
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  <p class="back"><a href="{{ '/projekt/' | relative_url }}">← Alla projekt</a></p>
+</article>
