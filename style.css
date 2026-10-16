@@ -373,6 +373,25 @@ img { max-width: 100%; height: auto; display: block; }
 
 .facts dd { margin: 0; }
 
+.facts-tech { grid-column: 1 / -1; }
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.35rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tech-list li {
+  padding: 0.2rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: 0.85rem;
+}
+
 .project-image {
   display: flex;
   justify-content: center;

@@ -12,8 +12,13 @@ layout: default
     {% if page.type %}<div><dt>Typ</dt><dd>{{ page.type }}</dd></div>{% endif %}
     {% if page.client %}<div><dt>Via</dt><dd>{{ page.client }}</dd></div>{% endif %}
     {% if page.role %}<div><dt>Roll</dt><dd>{{ page.role }}</dd></div>{% endif %}
-    {% if page.tech %}<div><dt>Teknik</dt><dd>{{ page.tech | join: ", " }}</dd></div>{% endif %}
     {% if page.link %}<div><dt>Länk</dt><dd><a href="{{ page.link }}">{{ page.link | remove: "https://" | remove: "http://" | remove: "www." }}</a></dd></div>{% endif %}
+    {% if page.tech %}
+    <div class="facts-tech">
+      <dt>Nyckeltekniker</dt>
+      <dd><ul class="tech-list">{% for t in page.tech %}<li>{{ t }}</li>{% endfor %}</ul></dd>
+    </div>
+    {% endif %}
   </dl>
 
   {% if page.gallery %}
