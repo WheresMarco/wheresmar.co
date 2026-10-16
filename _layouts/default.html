@@ -9,7 +9,9 @@
   <meta name="description" content="{{ page.summary | default: page.description | default: site.description | strip_html | escape }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
-  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="32x32">
+  <link rel="preload" href="{{ '/assets/fonts/fraunces-latin-700-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="apple-touch-icon" href="{{ '/apple-touch-icon-precomposed.png' | relative_url }}">
 </head>
 <body>
