@@ -42,4 +42,3 @@ _sass
 .jekyll-cache
 .bundle
 vendor
-Gemfile.lock

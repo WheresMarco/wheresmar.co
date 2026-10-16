@@ -4,10 +4,17 @@ Källkoden till [wheresmar.co](https://wheresmar.co). Sajten byggs med Jekyll oc
 
 ## Köra lokalt
 
+Projektet använder Ruby 4.0.7 och Jekyll 4.4. Installera Ruby via rbenv och kör kommandona från projektmappen:
+
 ```sh
+rbenv install 4.0.7
+rbenv local 4.0.7
+ruby -v
 bundle install
 bundle exec jekyll serve
 ```
+
+Kontrollera att `ruby -v` visar 4.0.7. Sajten publiceras till GitHub Pages via GitHub Actions; välj **GitHub Actions** som Source under Settings → Pages.
 
 Öppna sedan http://localhost:4000.
 

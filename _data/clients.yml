@@ -1,4 +1,7 @@
-# Företag och organisationer som syns i listan "Har arbetat med" på startsidan.
+- name: Lavendla
+  url: https://lavendla.se
+- name: Nila Health
+  url: https://nilahealth.ai
 - name: Godel
   url: https://godel.se
 - name: Stutterheim

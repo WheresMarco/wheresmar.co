@@ -1,7 +1,7 @@
 ---
 ---
 <section class="intro">
-  <h1><span>Hej där!</span></h1>
+  <h1><span>Hallå där!</span></h1>
   <p class="lead">Jag heter Marco Sommer och är senior webbutvecklare med över 13 års erfarenhet av affärskritiska webb- och e-handelslösningar. Just nu gör jag det hos <a href="https://www.ateles.se">CAG Ateles</a>.</p>
   <p>Till vardags jobbar jag mest med PHP/Laravel, WordPress och React, och jag har ofta haft det tekniska helhetsansvaret från idé till förvaltning. Jag trivs med att leda tekniska initiativ, samarbeta över teamgränser och vara bryggan mellan teknik och verksamhet.</p>
   <p>Det jag brinner mest för är hållbara lösningar, med fokus på kvalitet, säkerhet, tillgänglighet och långsiktig utveckling. Vid sidan av jobbet bygger jag gärna egna projekt, senast en ny webbplats för <a href="{{ '/projekt/studentspex/' | relative_url }}">Linköpings Studentspex</a>.</p>
@@ -12,7 +12,7 @@
 {% if featured.size > 0 %}
 <section class="section">
   <div class="section-header">
-    <h2>Utvalda projekt</h2>
+    <h2>Utvalda sidoprojekt</h2>
     <a href="{{ '/projekt/' | relative_url }}">Alla projekt</a>
   </div>
   <div class="cards">
@@ -24,7 +24,7 @@
 {% endif %}
 
 <section class="section">
-  <h2>Kunder genom åren</h2>
+  <h2>Har tidigare arbetat med</h2>
   <ul class="clients">
     {% for client in site.data.clients %}
     <li><a href="{{ client.url }}">{{ client.name | escape }}</a></li>
