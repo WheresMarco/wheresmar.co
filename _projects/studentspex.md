@@ -2,8 +2,8 @@
 title: Linköpings Studentspex
 year: 2026
 type: Webbplats
-summary: Ny webbplats för spexföreningen som stått på Linköpings scener sedan 1981.
-link: https://spex.wheresmar.co
+summary: Ny webbplats för spexföreningen i Linköping.
+link: https://studentspex.se
 image: /img/studentspex.png
 featured: true
 gallery:

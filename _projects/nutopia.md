@@ -2,8 +2,7 @@
 title: Nutopia
 year: 2019
 type: Blogg
-summary: Svensk nyhetsblogg om teknik, prylar och popkultur.
-link: https://nutopia.se
+summary: Ett digitalt kuriosakabinett med det bästa jag hittat på webben.
 image: /img/nutopia.png
 featured: true
 gallery:
@@ -12,6 +11,6 @@ gallery:
 ---
 Nutopia var en svensk blogg om teknik, prylar och popkultur. Här samlades korta nyheter om allt från nya konsoler och sneakers till Elon Musks senaste infall, sorterade under Hett, Prylar och Video, med ett arkiv för allt som hunnit bli gammalt.
 
-Designen var lika högljudd som innehållet: knallgul bakgrund, rosa länkar och svarta rubrikband. Jag byggde sajten.
+Designen var lika högljudd som innehållet: knallgul bakgrund, rosa länkar och svarta rubrikband. Jag byggde sajten och skrev allt innehåll på den.
 
-Nutopia finns inte kvar i dag, men går fortfarande att bläddra i via Internet Archive.
+Nutopia finns inte kvar i dag (i den sanna formen, det är idag en länkfarm), men går fortfarande att bläddra i via Internet Archive.

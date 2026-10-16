@@ -14,6 +14,6 @@ gallery:
 ---
 Studentorkesterfestivalen, SOF, är norra Europas största studentarrangerade festival och hålls i Linköping vartannat år. I maj 2023 fylldes staden återigen av studentorkestrar, baletter och en kårtege genom centrum.
 
-Jag byggde festivalens webbplats. Den samlade information om festivalen, balkestrarna och kårtegen, en festivalkarta med scener och matställen, och en sida där festivalen rekryterade jobbare för att få helgen att gå runt. Biljetterna såldes via [Billio](/projekt/billio/).
+Jag byggde festivalens webbplats i Next.js och skötte all drift via Vercel. Den samlade information om festivalen, balkestrarna och kårtegen, en festivalkarta med scener och matställen, och en sida där festivalen rekryterade jobbare för att få helgen att gå runt. Biljetterna såldes via [Billio](/projekt/billio/).
 
-Designen utgick från festivalens maskot och färger, lila och gult, med ornament som ramar in rubrikerna. När festivalen var över byttes startsidan mot ett tack till alla som var med.
+Designen utgick från festivalens maskot och färger, lila och gult, med ornament som ramar in rubrikerna.
