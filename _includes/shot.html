@@ -1,0 +1,6 @@
+<figure class="shot{% if include.class %} {{ include.class }}{% endif %}">
+  <a class="shot-frame" href="{{ include.shot.src | relative_url }}">
+    <img src="{{ include.shot.src | relative_url }}" alt="{{ include.shot.caption | escape }}"{% unless include.eager %} loading="lazy"{% endunless %}>
+  </a>
+  {% if include.shot.caption %}<figcaption>{{ include.shot.caption }}</figcaption>{% endif %}
+</figure>

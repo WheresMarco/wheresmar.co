@@ -33,12 +33,15 @@ link: https://billio.app   # valfritt
 image: /img/billio.svg     # valfritt, logga eller skärmdump
 tech: [PHP, React]         # valfritt
 featured: true             # valfritt, visar projektet på startsidan
+gallery:                   # valfritt, skärmdumpar på projektsidan
+  - src: /img/billio/1.webp
+    caption: Startsidan med kommande evenemang.
 ---
 
 Längre beskrivning i vanlig Markdown.
 ```
 
-Projektsidan (`/projekt/`) grupperar allt efter `year`, nyast först. Bilder läggs i `img/`.
+Projektsidan (`/projekt/`) grupperar allt efter `year`, nyast först. Bilder läggs i `img/`. Den första bilden i `gallery` visas stort överst, resten i ett rutnät under texten. Skärmdumpar blir bäst som WebP runt 2000 pixlar breda.
 
 ## Ändra listan över kunder
 

@@ -16,13 +16,23 @@ layout: default
     {% if page.link %}<div><dt>Länk</dt><dd><a href="{{ page.link }}">{{ page.link | remove: "https://" | remove: "http://" | remove: "www." }}</a></dd></div>{% endif %}
   </dl>
 
-  {% if page.image %}
+  {% if page.gallery %}
+    {% include shot.html shot=page.gallery.first class="shot-hero" eager=true %}
+  {% elsif page.image %}
   <figure class="project-image"><img src="{{ page.image | relative_url }}" alt=""></figure>
   {% endif %}
 
   <div class="prose">
     {{ content }}
   </div>
+
+  {% if page.gallery.size > 1 %}
+  <div class="gallery">
+    {% for shot in page.gallery offset: 1 %}
+      {% include shot.html shot=shot %}
+    {% endfor %}
+  </div>
+  {% endif %}
 
   <p class="back"><a href="{{ '/projekt/' | relative_url }}">← Alla projekt</a></p>
 </article>
