@@ -1,0 +1,14 @@
+{% assign by_year = include.projects | group_by: "year" | sort: "name" | reverse %}
+{% for group in by_year %}
+<section class="year-group">
+  <h2 class="year">{{ group.name }}</h2>
+  <ul class="project-list">
+    {% for project in group.items %}
+    <li>
+      <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      <span class="meta">{{ project.type }}{% if project.client %} · {{ project.client }}{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}

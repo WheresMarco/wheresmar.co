@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<article class="project">
+  <header class="page-header">
+    <p class="label"><a href="{{ '/projekt/' | relative_url }}">Sidoprojekt</a> · {{ page.year }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.summary %}<p class="lead">{{ page.summary }}</p>{% endif %}
+  </header>
+
+  <dl class="facts">
+    {% if page.type %}<div><dt>Typ</dt><dd>{{ page.type }}</dd></div>{% endif %}
+    {% if page.client %}<div><dt>Via</dt><dd>{{ page.client }}</dd></div>{% endif %}
+    {% if page.role %}<div><dt>Roll</dt><dd>{{ page.role }}</dd></div>{% endif %}
+    {% if page.link %}<div><dt>Länk</dt><dd><a href="{{ page.link }}">{{ page.link | remove: "https://" | remove: "http://" | remove: "www." }}</a></dd></div>{% endif %}
+    {% if page.tech %}
+    <div class="facts-tech">
+      <dt>Nyckeltekniker</dt>
+      <dd><ul class="tech-list">{% for t in page.tech %}<li>{{ t }}</li>{% endfor %}</ul></dd>
+    </div>
+    {% endif %}
+  </dl>
+
+  {% if page.gallery %}
+    {% include shot.html shot=page.gallery.first class="shot-hero" eager=true %}
+  {% elsif page.image %}
+  <figure class="project-image"><img src="{{ page.image | relative_url }}" alt=""></figure>
+  {% endif %}
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  {% if page.gallery.size > 1 %}
+  <div class="gallery">
+    {% for shot in page.gallery offset: 1 %}
+      {% include shot.html shot=shot %}
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% include project-pager.html %}
+</article>
+
+{% if page.gallery %}<script src="{{ '/assets/js/lightbox.js' | relative_url }}" defer></script>{% endif %}

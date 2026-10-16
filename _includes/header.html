@@ -1,0 +1,13 @@
+<header class="site-header">
+  <a class="site-title" href="{{ '/' | relative_url }}">
+    {% include sun.svg %}
+    <span class="logo-text">
+      <span class="logo-name">{{ site.title }}</span>
+      <span class="logo-role">Senior webbutvecklare</span>
+    </span>
+  </a>
+  <nav class="site-nav" aria-label="Huvudmeny">
+    <a href="{{ '/projekt/' | relative_url }}"{% if page.url contains '/projekt/' %} aria-current="page"{% endif %}>Sidoprojekt</a>
+    <a href="mailto:{{ site.email }}">E-posta mig</a>
+  </nav>
+</header>

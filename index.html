@@ -1,45 +1,33 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Marco Sommer - Webbutvecklare</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-</head>
-<body>
-    <main>
-        <div class="wrapper" role="main">
-            <h1><span>Hej där!</span></h1>
-            <p>Mitt namn är Marco Sommer, och jag är backend-utvecklare. För närvarande är jag det hos <a href="https://www.ateles.se" target="_blank">CAG Ateles</a>, men jag ägnar mig också åt att utveckla projekt på sidan av mitt nuvarande arbete.</p>
+---
+---
+<section class="intro">
+  <h1><span>Hallå där!</span></h1>
+  <p class="lead">Jag heter Marco Sommer och är senior webbutvecklare med över 13 års erfarenhet av affärskritiska webb- och e-handelslösningar. Just nu arbetar jag hos <a href="https://www.ateles.se">CAG Ateles</a>.</p>
+  <p>Till vardags jobbar jag mest med PHP, Laravel, Pimcore, WordPress och React, och jag har ofta haft det tekniska helhetsansvaret från idé till förvaltning. Jag trivs med att leda tekniska initiativ, samarbeta över teamgränser och vara bryggan mellan teknik och verksamhet.</p>
+  <p>Det jag brinner mest för är hållbara lösningar, med fokus på kvalitet, säkerhet, tillgänglighet och långsiktig utveckling. Vid sidan av jobbet bygger jag gärna egna projekt, senast en ny webbplats för <a href="{{ '/projekt/studentspex/' | relative_url }}">Linköpings Studentspex</a>.</p>
+  <p>Har du frågor eller vill du bara säga hej? Skicka ett mail till <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+</section>
 
-            <p>Om du har några frågor eller bara vill komma i kontakt med mig, är du välkommen att skicka ett mail till <a href="mailto:marco@wheresmar.co">marco@wheresmar.co</a>.</p>
+{% assign featured = site.projects | where: "featured", true | sort: "title" %}
+{% if featured.size > 0 %}
+<section class="section">
+  <div class="section-header">
+    <h2>Utvalda sidoprojekt</h2>
+    <a href="{{ '/projekt/' | relative_url }}">Alla sidoprojekt</a>
+  </div>
+  <div class="cards">
+    {% for project in featured %}
+      {% include project-card.html project=project %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
-            <h2><span>Har tidigare arbetat med</span></h2>
-            <ul class="image-grid">
-                <li><a href="https://godel.se" target="_blank"><img src="img/godel.svg"></a></li>
-                <li><a href="https://stutterheim.com" target="_blank"><img src="img/stutterheim.svg" style="margin-left: 25px;"></a></li>
-                <li><a href="https://www.theabsolutcompany.com" target="_blank"><img src="img/absolut.jpg"></a></li>
-                <li><a href="https://www.rugvista.se" target="_blank"><img src="img/rugvista.png"></a></li>
-                <li><a href="https://www.gullbanken.no" target="_blank"><img src="img/gullbanken.jpg"></a></li>
-                <li><a href="https://digipant.se" target="_blank"><img src="img/digipant.jpg"></a></li>
-                <li><a href="https://filterteknik.se" target="_blank"><img src="img/filterteknik.png"></a></li>
-                <li><a href="https://addsecure.se" target="_blank"><img src="img/addsecure.webp"></a></li>
-                <li><a href="https://bonniermag.se" target="_blank"><img src="img/bonnier.png"></a></li>
-                <li><a href="https://www.enjoywine.se" target="_blank"><img src="img/enjoy.svg"></a></li>
-                <li><a href="https://www.zeta.nu" target="_blank"><img src="img/zeta.png"></a></li>
-                <li><a href="https://cirkus.se" target="_blank"><img src="img/cirkus.png"></a></li>
-                <li><a href="https://www.reneevoltaire.se" target="_blank"><img src="img/rv.png"></a></li>
-                <li><a href="http://kalmarolandairport.se" target="_blank"><img src="img/koairport.png"></a></li>
-                <li><a href="https://www.gryaab.se" target="_blank"><img src="img/gryab.png"></a></li>
-                <li><a href="http://www.barometern.se" target="_blank"><img src="img/barometern.png"></a></li>
-                <li><a href="https://www.kalmarlanstrafik.se" target="_blank"><img src="img/klt.svg"></a></li>
-                <li><a href="https://mercuri.se" target="_blank"><img src="img/mercuri.svg"></a></li>
-                <li><a href="https://vaxjobostader.se" target="_blank"><img src="img/vaxjobostader.svg"></a></li>
-                <li><a href="https://idealofsweden.com" target="_blank"><img src="img/ideal.svg"></a></li>
-            </ul>
-        </div>
-    </main>
-</body>
-</html>
+<section class="section">
+  <h2>Har tidigare arbetat med</h2>
+  <ul class="clients">
+    {% for client in site.data.clients %}
+    <li><a href="{{ client.url }}">{{ client.name | escape }}</a></li>
+    {% endfor %}
+  </ul>
+</section>

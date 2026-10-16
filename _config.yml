@@ -1,1 +1,27 @@
+title: Marco Sommer
+description: Marco Sommer är senior webbutvecklare med över 13 års erfarenhet av affärskritiska webb- och e-handelslösningar.
+lang: sv
+url: "https://wheresmar.co"
+email: marco@wheresmar.co
+github: WheresMarco
+linkedin: marco-sommer
+og_image: /assets/og-image.png
+
 include: [".well-known"]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "vendor", ".ruby-version"]
+
+collections:
+  projects:
+    output: true
+    permalink: /projekt/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+  - scope:
+      path: ""
+    values:
+      layout: default
