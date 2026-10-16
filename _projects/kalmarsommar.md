@@ -3,8 +3,8 @@ title: "#kalmarsommar"
 year: 2014
 type: Kampanj
 client: Kreation
-summary: En Instagramkampanj som gjorde Kalmars sommar synlig i sociala medier.
+summary: Instagramkampanjen som fick tusentals att dela sin sommar i Kalmar.
 ---
-#kalmarsommar var en omfattande kampanj för att stärka Kalmars attraktionskraft genom sociala medier.
+Tagga en bild med #kalmarsommar på Instagram, så var du med i tävlingen och syntes på kampanjsidan. Enkelt för deltagarna och ett flöde av äkta sommarbilder för Kalmar.
 
-Den som tog en bild och taggade den med #kalmarsommar på Instagram var med i tävlingen och syntes på kampanjsidan vi byggde. Tävlingen var mycket populär under åren den var aktiv, och flera tusen bilder publicerades under taggen.
+Kampanjen gick flera somrar i rad, och tusentals bilder delades under taggen.

@@ -3,10 +3,10 @@ title: Växjöbostäder
 year: 2015
 type: Webbplats
 client: Kreation
-summary: Ny webbplats med kartlösning och koppling till ett externt bostadssystem.
+summary: Ny sajt med karta och koppling till bostadssystemet.
 link: https://vaxjobostader.se
 image: /img/vaxjobostader.svg
 ---
-Växjöbostäder bildades genom en sammanslagning 2014, och under början av 2015 togs en ny grafisk profil och webbplats fram.
+Växjöbostäder bildades genom en sammanslagning 2014 och fick 2015 en ny grafisk profil och en ny sajt.
 
-Jag var med och byggde webbplatsen, som bland annat har en kartlösning kopplad till ett externt bostadssystem.
+Jag var med och byggde sajten, bland annat en kartvy över bostäderna som hämtar sitt utbud direkt från ett externt bostadssystem.

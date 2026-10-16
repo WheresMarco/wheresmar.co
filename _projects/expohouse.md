@@ -3,10 +3,10 @@ title: Expohouse
 year: 2017
 type: Webbplats
 client: Odd Alice
-summary: En ny, stilfull webbplats för en aktör inom mässa, evenemang och butiksinredning.
+summary: Snabb, sökmotorvänlig sajt för en aktör inom mässor, event och butiksinredning.
 link: http://expohouse.se
 tech: [React, WordPress REST API]
 ---
-Expohouse är en heltäckande aktör inom mässa, evenemang och inredningsproduktion för butik. Vi på Odd Alice hjälpte dem att ta fram en ny, stilfull webbplats som sätter företagets inriktning i fokus.
+Expohouse gör allt från mässmontrar och event till butiksinredning, och ville ha en ny sajt som satte verksamheten i fokus.
 
-Hela sajten bygger på React och hämtar data från WordPress REST API. Det ger både snabbare och bättre upplevelser för besökaren, och sidan får bästa möjliga sökmotoroptimering tack vare isomorfisk rendering.
+Vi byggde den i React med innehåll från WordPress REST API. Isomorfisk rendering gav både snabba sidladdningar och full synlighet i sökmotorerna.

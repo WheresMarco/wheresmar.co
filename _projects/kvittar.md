@@ -2,9 +2,8 @@
 title: Kvittar
 year: 2019
 type: Sidoprojekt
-summary: En kvittosamlare som håller ordning på dina kvitton så att du slipper.
+summary: Alla kvitton på ett ställe, redo när du behöver dem.
 link: https://kvittar.app
 image: /img/kvittar.svg
-featured: true
 ---
-Kvittar är en kvittosamlare som jag byggde som sidoprojekt. Tanken är enkel: samla alla kvitton på ett ställe så att de är lätta att hitta när de behövs.
+Kvittar samlar dina kvitton på ett ställe. Ingen låda full med blekta papperslappar, bara en lista du kan söka i när garantin ska användas eller deklarationen göras.

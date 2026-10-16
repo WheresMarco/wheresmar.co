@@ -2,9 +2,9 @@
 title: Nutopia
 year: 2019
 type: Sidoprojekt
-summary: En samling av allt underbart jag hittar på webben.
+summary: Ett digitalt kuriosakabinett med det bästa jag hittat på webben.
 link: https://nutopia.se
 image: /img/nutopia.png
 featured: true
 ---
-På Nutopia lade jag upp allt underbart jag hittade på webben. En plats för länkar, verktyg och små upptäckter som förtjänade att sparas.
+Nutopia var min samlingsplats för länkar, verktyg och små upptäckter från webben. Sånt som var för bra för att bara försvinna i ett bokmärke.

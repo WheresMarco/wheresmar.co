@@ -225,6 +225,13 @@ img { max-width: 100%; height: auto; display: block; }
   object-fit: contain;
 }
 
+.card-wordmark {
+  color: #1d1d1b;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
 .card-link:hover .card-media { transform: translateY(-3px); }
 
 .card-title {

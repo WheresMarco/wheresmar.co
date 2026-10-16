@@ -3,10 +3,10 @@ title: Cirkus
 year: 2015
 type: Webbplats
 client: Kreation
-summary: Ny webbplats med avancerad evenemangskalender för Stockholms all-aktivitetshus.
+summary: Ny sajt med evenemangskalender för Stockholms scen för shower och musikaler.
 link: https://cirkus.se
 image: /img/cirkus.png
 ---
-Cirkus är ett all-aktivitetshus med evenemang som konserter, kongresser och TV-inspelningar, men framför allt teater, musikaler och shower.
+Cirkus i Stockholm rymmer allt från konserter och TV-inspelningar till musikaler och shower. Sajten behövde hålla ordning på ett tätt program.
 
-Under 2015 var jag med och utvecklade deras nya webbplats, som utöver en fräsch design har en avancerad evenemangskalender med restaurangmenyer. Fokus låg på att allt skulle fungera lika bra i telefonen som på surfplattan och datorn.
+Jag var med och byggde den nya webbplatsen, med en evenemangskalender kopplad till restaurangens menyer. Sajten är responsiv, så den fungerar lika bra i mobilen på väg till föreställningen som hemma i soffan.

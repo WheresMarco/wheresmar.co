@@ -3,11 +3,11 @@ title: Nörduppropet!
 year: 2012
 type: Kampanj
 client: Rodolfo
-summary: En digital namninsamling som fick Svenska Akademien att ändra definitionen av ”nörd”.
+summary: Namninsamlingen som fick Svenska Akademien att ändra betydelsen av ”nörd”.
 link: http://nörduppropet.se
 ---
-Nörduppropet! var en kampanj som ville ändra definitionen av ordet ”nörd” i Svenska Akademiens ordlista, från något negativt till något positivt, och samtidigt öka kännedomen om NTI-Gymnasiet.
+Ordet ”nörd” stod i Svenska Akademiens ordlista som något negativt. Nörduppropet! ville ändra på det, och samtidigt sätta NTI-Gymnasiet på kartan.
 
-Kampanjen genomfördes som en digital namninsamling som jag utvecklade tillsammans med Rodolfo. Den fick stort genomslag i både traditionella och sociala medier, och 2015 meddelade Svenska Akademien att definitionen skulle ändras.
+Jag byggde den digitala namninsamlingen tillsammans med Rodolfo. Kampanjen fick stort genomslag i både traditionella och sociala medier, och 2015 ändrade Svenska Akademien definitionen.
 
-**Vinnare av 50-wattaren i kategorin Smart i reklamtävlingen 100-wattaren, 2013.**
+**Vinnare av 50-wattaren i kategorin Smart, 100-wattaren 2013.**

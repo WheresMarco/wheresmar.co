@@ -3,13 +3,11 @@ title: Zeta
 year: 2016
 type: Webbplats
 client: Odd Alice
-summary: Ny webbplats och en gemensam materialdatabas för recept och produkter.
+summary: Ny sajt och en delad databas för recept och produkter.
 link: https://www.zeta.nu
 image: /img/zeta.png
 tech: [WordPress, React, WordPress REST API]
 ---
-Zeta är kända för sina kvalitetsvaror från Italien, bland annat olivoljor och pasta, och behövde byta ut sin gamla webbplattform.
+Zeta säljer italienska kvalitetsvaror, från olivolja till pasta, och hade vuxit ur sin gamla plattform.
 
-Vi på Odd Alice fick uppdraget att flytta sajten till WordPress med en helt ny design. Till det byggdes en materialdatabas för både recept och produkter som används av flera sajter parallellt.
-
-Webbplatsen pratar med materialdatabasen via WordPress REST API, och flera delar av sidan är skrivna i React för att göra den snabb och responsiv.
+Vi flyttade sajten till WordPress med en helt ny design. Under ytan byggde vi en gemensam databas för recept och produkter som flera av Zetas sajter hämtar från samtidigt via WordPress REST API. De mest interaktiva delarna är byggda i React.

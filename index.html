@@ -1,9 +1,9 @@
 ---
 ---
 <section class="intro">
-  <h1><span>Hej där!</span></h1>
-  <p class="lead">Mitt namn är Marco Sommer och jag är backend-utvecklare. För närvarande är jag det hos <a href="https://www.ateles.se">CAG Ateles</a>, men jag bygger också egna projekt vid sidan av.</p>
-  <p>Har du frågor eller vill du bara komma i kontakt med mig är du välkommen att skicka ett mail till <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+  <h1><span>Hej, jag är Marco.</span></h1>
+  <p class="lead">Backend-utvecklare på <a href="https://www.ateles.se">CAG Ateles</a>. Jag bygger system som håller i längden, och på kvällar och helger egna projekt. Senast en ny sajt för Linköpings Studentspex.</p>
+  <p>Vill du prata projekt, jobb eller något helt annat? Skriv till <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
 </section>
 
 {% assign featured = site.projects | where: "featured", true | sort: "title" %}
@@ -22,7 +22,7 @@
 {% endif %}
 
 <section class="section">
-  <h2>Har arbetat med</h2>
+  <h2>Kunder genom åren</h2>
   <ul class="clients">
     {% for client in site.data.clients %}
     <li><a href="{{ client.url }}">{{ client.name | escape }}</a></li>
