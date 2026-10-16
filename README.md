@@ -41,7 +41,7 @@ gallery:                   # valfritt, skärmdumpar på projektsidan
 Längre beskrivning i vanlig Markdown.
 ```
 
-Projektsidan (`/projekt/`) grupperar allt efter `year`, nyast först. Bilder läggs i `img/`. Den första bilden i `gallery` visas stort överst, resten i ett rutnät under texten. Skärmdumpar blir bäst som WebP runt 2000 pixlar breda.
+Projektsidan (`/projekt/`) grupperar allt efter `year`, nyast först. Bilder läggs i `img/`. Den första bilden i `gallery` visas stort överst, resten i ett rutnät under texten. Skärmdumpar blir bäst som WebP runt 2000 pixlar breda. Lägg gärna också en `og.jpg` på 1200 × 630 pixlar i samma mapp, så används den som förhandsbild när projektet delas i sociala medier. Annars används den generella bilden i `assets/og-image.png`.
 
 ## Ändra listan över kunder
 

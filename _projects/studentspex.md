@@ -29,4 +29,6 @@ Designen bygger vidare på föreningens klassiska logotyp med stjärnor. En djup
 
 Allt kring nästa spex finns samlat: datum och tider, plats, grupputbokning och biljetter. Föreställningarna presenteras som en kalender där nästa föreställning är markerad. En egen sida förklarar vad ett spex är och vilka tillrop som gäller, och det finns en sida för den som vill söka till nästa uppsättning samt en historiesida med en tidslinje från spexets rötter i Uppsala på 1800-talet fram till i dag.
 
+Webbplatsen är byggd på WordPress med ett eget tema. Föreningen uppdaterar själv föreställningar, texter och arkiv i WordPress adminpanel, så att varje ny uppsättning kan läggas upp utan att en utvecklare behöver vara inblandad.
+
 Arkivet Gamla spex samlar alla uppsättningar sedan Göta kanal 1981. Det går att fritextsöka på titel, år och handling och att filtrera per decennium, så att 45 år av föreställningar går att hitta på några sekunder.

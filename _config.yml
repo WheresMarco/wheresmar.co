@@ -4,9 +4,11 @@ lang: sv
 url: "https://wheresmar.co"
 email: marco@wheresmar.co
 github: WheresMarco
+linkedin: marco-sommer
+og_image: /assets/og-image.png
 
 include: [".well-known"]
-exclude: ["README.md", "Gemfile", "Gemfile.lock", "vendor"]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "vendor", ".ruby-version"]
 
 collections:
   projects:

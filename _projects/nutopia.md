@@ -12,6 +12,6 @@ gallery:
 ---
 Nutopia var en svensk blogg om teknik, prylar och popkultur. Här samlades korta nyheter om allt från nya konsoler och sneakers till Elon Musks senaste infall, sorterade under Hett, Prylar och Video, med ett arkiv för allt som hunnit bli gammalt.
 
-Jag byggde sajten och skrev allt innehåll på den. Startsidan lyfte fram de hetaste artiklarna och de senaste kommentarerna ovanför flödet, och inläggen grupperades per dag. Designen var lika högljudd som innehållet: knallgul bakgrund, rosa länkar och svarta rubrikband.
+Jag byggde sajten på WordPress med ett eget tema och skrev allt innehåll på den. Startsidan lyfte fram de hetaste artiklarna och de senaste kommentarerna ovanför flödet, och inläggen grupperades per dag. Designen var lika högljudd som innehållet: knallgul bakgrund, rosa länkar och svarta rubrikband.
 
 Nutopia finns inte kvar i dag (i den sanna formen, det är idag en länkfarm), men går fortfarande att bläddra i via Internet Archive.

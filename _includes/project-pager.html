@@ -1,0 +1,12 @@
+{%- comment -%} Same order as the list on /projekt/: newest year first. {%- endcomment -%}
+{%- assign ordered = "" | split: "" -%}
+{%- assign by_year = site.projects | group_by: "year" | sort: "name" | reverse -%}
+{%- for group in by_year -%}{%- assign ordered = ordered | concat: group.items -%}{%- endfor -%}
+{%- for p in ordered -%}{%- if p.url == page.url -%}{%- assign i = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+{%- assign prev_i = i | minus: 1 -%}
+{%- assign next_i = i | plus: 1 -%}
+<nav class="pager" aria-label="Fler sidoprojekt">
+  {% if prev_i >= 0 %}{% assign p = ordered[prev_i] %}<a class="pager-prev" href="{{ p.url | relative_url }}"><span>← Föregående</span>{{ p.title }}</a>{% else %}<span></span>{% endif %}
+  <a class="pager-all" href="{{ '/projekt/' | relative_url }}">Alla sidoprojekt</a>
+  {% if next_i < ordered.size %}{% assign p = ordered[next_i] %}<a class="pager-next" href="{{ p.url | relative_url }}"><span>Nästa →</span>{{ p.title }}</a>{% else %}<span></span>{% endif %}
+</nav>
