@@ -10,3 +10,7 @@ featured: false
 Linköpings Studentspex sätter upp spex, studentikos musikteater med mycket humor och en publik som får vara med och styra.
 
 Jag byggde föreningens nya webbplats, som nu är lanserad.
+
+![alt text](/img/sof/1.png "Title")
+![alt text](/img/sof/2.png "Title")
+![alt text](/img/sof/3.png "Title")
