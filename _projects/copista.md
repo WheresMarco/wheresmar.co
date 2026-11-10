@@ -2,7 +2,7 @@
 title: Copista
 year: 2026
 type: Mac-app
-summary: En Mac-app för notbibliotekarien som sorterar PDF:er i stämmor och skriver ut rätt antal av varje.
+summary: Mac-app för notbibliotekarier som sorterar PDF:er i stämmor och skriver ut rätt antal av varje.
 link: https://github.com/WheresMarco/Copista
 image: /img/copista.png
 featured: true
