@@ -3,6 +3,7 @@ title: WordNote
 year: 2016
 type: WordPress-tillägg
 summary: En anteckningsruta i WordPress adminpanel för snabba anteckningar.
+image: /img/wordpress-plugin.svg
 featured: false
 gallery:
   - src: /img/wordnote/1.jpg
