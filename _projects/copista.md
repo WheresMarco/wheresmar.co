@@ -8,6 +8,8 @@ image: /img/copista.png
 featured: true
 tech: [Swift, SwiftUI, PDFKit, Vision, Foundation Models, Sparkle]
 gallery:
+  - src: /img/copista/6.webp
+    caption: Välkomstguiden vid första starten.
   - src: /img/copista/1.webp
     caption: Granskningen flaggar det som är osäkert och föreslår hur det rättas.
   - src: /img/copista/2.webp
@@ -18,8 +20,6 @@ gallery:
     caption: Utskriften, där varje låt blir ett eget jobb.
   - src: /img/copista/5.webp
     caption: Instrumentkatalogen med de namn Copista känner igen.
-  - src: /img/copista/6.webp
-    caption: Välkomstguiden vid första starten.
   - src: /img/copista/7.webp
     caption: Standardantal per stämma ställs in en gång.
   - src: /img/copista/8.webp

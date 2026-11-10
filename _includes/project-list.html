@@ -4,9 +4,17 @@
   <h2 class="year">{{ group.name }}</h2>
   <ul class="project-list">
     {% for project in group.items %}
+    {%- assign thumb = project.image | default: project.gallery.first.src -%}
     <li>
-      <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-      <span class="meta">{{ project.type }}{% if project.client %} · {{ project.client }}{% endif %}</span>
+      <a class="project-row" href="{{ project.url | relative_url }}">
+        <div class="project-row-thumb">{% if thumb %}<img src="{{ thumb | relative_url }}" alt="" loading="lazy">{% else %}<span class="card-wordmark">{{ project.title }}</span>{% endif %}</div>
+        <div>
+          <span class="project-row-title">{{ project.title }}</span>
+          <span class="meta">{{ project.type }}{% if project.client %} · {{ project.client }}{% endif %}</span>
+          {% if project.summary %}<p class="project-row-summary">{{ project.summary }}</p>{% endif %}
+          {% if project.tech %}<p class="project-row-tech">{{ project.tech | join: " · " }}</p>{% endif %}
+        </div>
+      </a>
     </li>
     {% endfor %}
   </ul>
