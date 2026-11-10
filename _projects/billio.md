@@ -3,7 +3,6 @@ title: Billio
 year: 2023
 type: Biljettsystem
 summary: Biljettsystemet för föreningar och arrangörer, från försäljning till incheckning.
-link: https://billio.app
 image: /img/billio.png
 featured: true
 gallery:

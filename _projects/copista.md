@@ -5,7 +5,7 @@ type: Mac-app
 summary: En Mac-app för notbibliotekarien som sorterar PDF:er i stämmor och skriver ut rätt antal av varje.
 link: https://github.com/WheresMarco/Copista
 image: /img/copista.png
-featured: false
+featured: true
 tech: [Swift, SwiftUI, PDFKit, Vision, Foundation Models, Sparkle]
 gallery:
   - src: /img/copista/1.webp
