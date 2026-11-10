@@ -305,10 +305,19 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .card-summary {
-  margin: 0;
+  margin: 0.3rem 0 0;
   color: var(--muted);
-  font-size: 0.925rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
 }
+
+/* Variant B: compact tiles */
+.cards--tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem var(--space); }
+.cards--tiles .card-link { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1rem; align-items: start; }
+.cards--tiles .card-media { margin: 0; padding: 0.6rem; }
+.cards--tiles .card-media img { max-height: 100%; }
+.cards--tiles .label { margin-top: 0.1rem; }
+@media (max-width: 30rem) { .cards--tiles { grid-template-columns: 1fr; } }
 
 /* Clients */
 .clients {

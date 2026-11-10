@@ -15,7 +15,7 @@
     <h2>Utvalda sidoprojekt</h2>
     <a href="{{ '/projekt/' | relative_url }}">Alla sidoprojekt</a>
   </div>
-  <div class="cards">
+  <div class="cards cards--tiles">
     {% for project in featured %}
       {% include project-card.html project=project %}
     {% endfor %}
