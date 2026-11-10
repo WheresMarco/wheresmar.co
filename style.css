@@ -341,7 +341,7 @@ img { max-width: 100%; height: auto; display: block; }
 .clients a:hover { color: var(--text); }
 
 /* Project archive */
-.project-list li + li { margin-top: 1.25rem; }
+.project-list li + li { margin-top: 2rem; }
 
 .project-row {
   display: grid;

@@ -2,7 +2,7 @@
 title: TuffTuffTime
 year: 2016
 type: WordPress-tillägg
-summary: Ett tillägg för WordPress.
+summary: Visar aktuella tågavgångar från en station som en tabell i inlägg och sidor.
 featured: false
 gallery:
   - src: /img/tufftufftime/1.png
