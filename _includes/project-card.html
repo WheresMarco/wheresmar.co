@@ -4,8 +4,10 @@
     <div class="card-media">
       {% if project.image %}<img src="{{ project.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="card-wordmark">{{ project.title }}</span>{% endif %}
     </div>
-    <p class="label">{{ project.type }}</p>
-    <h3 class="card-title">{{ project.title }}</h3>
-    <p class="card-summary">{{ project.summary }}</p>
+    <div class="card-body">
+      <p class="label">{{ project.type }}</p>
+      <h3 class="card-title">{{ project.title }}</h3>
+      <p class="card-summary">{{ project.summary }}</p>
+    </div>
   </a>
 </article>

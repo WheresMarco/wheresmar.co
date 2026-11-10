@@ -3,6 +3,7 @@ title: SOF23
 year: 2023
 type: Webbplats
 summary: Webbplatsen för Studentorkesterfestivalen 2023 i Linköping.
+image: /img/sof.png
 featured: false
 gallery:
   - src: /img/sof/1.webp
